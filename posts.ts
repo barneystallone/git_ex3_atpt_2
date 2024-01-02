@@ -18,4 +18,3 @@ const posts: Post[] = [
 ]
 
 export const getAllPosts = () => posts
-export const getPostById = (id: number) => posts.filter((post) => post.id === id)
